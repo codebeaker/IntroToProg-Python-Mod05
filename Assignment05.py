@@ -124,7 +124,7 @@ while (True):
             for student in students_unsaved:
                 print(f"Student {student["FirstName"]} {student["LastName"]} for"
                       f" {student["CourseName"]}.")
-                print("Remember to save this data using Menu Option 3.")
+            print("Remember to save this data using Menu Option 3.")
         else:
             print("There is no unsaved data at this time.")
 
